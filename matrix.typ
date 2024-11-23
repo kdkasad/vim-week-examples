@@ -1,10 +1,4 @@
-#import "../../khw.typ": problem
-
-#problem(
-  name: "Exercise 4.4",
-  number: false,
-  newpage: true,
-)[]
+== Exercise 4.4
 
 #let det = math.mat.with(delim: "|")
 
