@@ -20,7 +20,7 @@ bool route_is_subset(char sub[MAX_ROUTE_LEN], char super[MAX_ROUTE_LEN]) {
   int j = 0;
   while (i < MAX_ROUTE_LEN && j < MAX_ROUTE_LEN &&
          sub[i] != ROUTE_TERMINATOR && super[j] != ROUTE_TERMINATOR) {
-    if (sub[i] == super[j]) {
+    if ((sub[i] == super[j])) {
       i++;
       j++;
     }
